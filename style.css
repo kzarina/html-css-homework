@@ -1,0 +1,193 @@
+.container-fluid {
+  padding: 0;
+}
+.logo {
+  font-weight: bold;
+  color: #cf1020;
+}
+.nav-link:hover {
+  color: #f2785c;
+}
+.searchBtn {
+  background-color: #f2785c;
+  border: none;
+  color: white;
+}
+.searchBtn:hover {
+  background-color: #5072a7;
+}
+/* Intro section */
+.intro {
+  position: relative;
+}
+.introImg {
+  width: 100%;
+}
+.introTitle,
+.introSubtitle {
+  position: absolute;
+}
+.introTitle {
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4vw;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1em;
+}
+.introSubtitle {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2vw;
+  color: lightblue;
+  letter-spacing: 0.4em;
+}
+/* Destinations section */
+.h2Box {
+  display: flex;
+  justify-content: center;
+}
+.h2Title {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  color: #5072a7;
+  font-weight: bold;
+  font-style: italic;
+}
+.carousel-item {
+  position: relative;
+}
+.carouselName {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  color: white;
+  font-style: italic;
+  font-size: 2vw;
+  font-weight: bold;
+}
+.sectionButton {
+  display: flex;
+  justify-content: center;
+}
+.sectionForm {
+  margin-top: 2%;
+}
+.sectionBtn {
+  background-color: #f2785c;
+  font-size: 1.5vw;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+}
+.sectionBtn:hover {
+  background-color: #5072a7;
+  color: white;
+}
+/* Gallery section */
+.galleryCards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+.galleryImg {
+  max-width: 400px;
+}
+/* Footer section */
+.footerNav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+  padding: 1% 2% 0;
+  background-color: #5072a7;
+}
+.footerTxt {
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+}
+.contacts {
+  width: 20vw;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 1em;
+}
+.contactsItem {
+  list-style: none;
+}
+.contactsImg {
+  width: 100%;
+}
+
+/* GALLERY PAGE */
+.inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+.innerImg {
+  width: 22vw;
+}
+.innerImg:first-child,
+.innerImg:nth-child(14) {
+  width: 100%;
+}
+
+/* DESTINATIONS PAGE */
+.titleBox {
+  padding-top: 4%;
+  background-image: url(./images/bg-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mainTitle,
+.mainSubtitle {
+  text-align: center;
+  color: #5072a7;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 2px 2px 3px #000;
+}
+.mainSubtitle {
+  margin-top: 3%;
+  color: white;
+}
+.mainText {
+  padding: 3%;
+  font-size: 2vw;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2em;
+}
+.cardBox {
+  position: relative;
+}
+.cardImg {
+  width: 30vw;
+  padding: 4%;
+  transition: 1s;
+}
+.cardImg:hover {
+  transform: scale(0.9);
+  transform: opacity 0.35s;
+}
+h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  text-decoration: underline;
+  opacity: 1.1;
+  font-size: 1.5vw;
+}
